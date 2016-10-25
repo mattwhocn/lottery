@@ -1,0 +1,44 @@
+#body{
+	overflow: hidden;
+}
+.wrap{
+	position: fixed;
+	width: 100%;
+	height: 6.4rem;
+	left: 0;top: 0;right: 0;bottom: 0;
+	margin:auto;
+	text-align: center;
+}
+.turnTable_cover{
+	width: 4.5rem;
+	height: 4.5rem;
+	position: absolute;
+	left: 0;top: 0;right: 0;bottom: 0;
+	margin:auto;
+}
+.turnTable_cover .pointer{
+	width: 1.6rem;
+	height: 2rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -0.8rem;
+	margin-top: -1rem;
+	z-index: 8;
+}
+.turnTable_cover .pointer img{
+	width: 100%;height: 100%;
+}
+.turnTable_cover .rotate{
+	width: 4.5rem;
+	height: 4.5rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -2.25rem;
+	margin-top: -2.25rem;
+	z-index: 7;
+}
+.turnTable_cover .rotate img{
+	width: 100%;height: 100%;
+}

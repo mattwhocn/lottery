@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0,width=device-width, maximum-scale=1.0, user-scalable=no"/>
+	<title>lottery</title>
+	<script type="text/javascript" src="js/resize.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+	<!--awardRotate 插件封装了旋转函数，供我们直接调用-->
+	<script type="text/javascript" src="js/awardRotate.js"></script>
+	<!--ThreeCanvas 插件封装了雪花背景提供调用的接口-->
+	<script type="text/javascript" src="js/ThreeCanvas.js"></script>
+	<script type="text/javascript" src="js/Snow.js"></script>
+	<!--bg_init 自己写的js文件，初始化背景-->
+	<script type="text/javascript" src="js/bg_init.js"></script>
+	<!--index.js 自己写的js文件实现旋转的效果，并执行中奖的逻辑处理-->
+	<script type="text/javascript" src="js/index.js"></script>
+	
+	<!--sweet-alert封装了一个好看的弹窗提醒框，包含js和css文件-->
+	<script type="text/javascript" src="js/sweet-alert.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/sweet-alert.css">
+</head>
+<body bgcolor="#bcbfc9" id="body" onLoad="bg_init()" scoll="no">
+	<div class="wrap">
+		<div class="turnTable_cover">
+			<div class="pointer"><img src="img/pointer2.png" alt="pointer"></div>
+			<div class="rotate"><img id="rotate" src="img/turnTable2.png" alt="turnTable"></div>
+		</div>
+	</div>
+</body>
+</html>
